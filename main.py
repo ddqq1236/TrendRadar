@@ -4094,7 +4094,7 @@ def send_to_email(
 
         # 设置邮件主题
         now = get_beijing_time()
-        subject = f"TrendRadar要点文章- {report_type} - {now.strftime('%m月%d日 %H:%M')}"
+        subject = f"TrendRadar 要点文章 - {report_type} - {now.strftime('%m月%d日 %H:%M')}"
         msg["Subject"] = Header(subject, "utf-8")
 
         # 设置其他标准 header
